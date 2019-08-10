@@ -1,8 +1,5 @@
-import TranslatorParam from './translatorParam';
 import Translator from './translator';
-declare const _default: {
-    TranslatorParam: typeof TranslatorParam;
-    Translator: typeof Translator;
-    Initialize: typeof Translator.initialize;
-};
-export = _default;
+export { default as TranslatorParam } from './translatorParam';
+export { Translator };
+declare const Initialize: typeof Translator.initialize;
+export { Initialize };

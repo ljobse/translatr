@@ -1,4 +1,6 @@
-import TranslatorParam from './translatorParam';
 import Translator from './translator';
 
-export = { TranslatorParam, Translator, Initialize: Translator.initialize };
+export { default as TranslatorParam } from './translatorParam';
+export { Translator };
+const Initialize = Translator.initialize;
+export { Initialize };
