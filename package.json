@@ -1,10 +1,10 @@
 {
-  "name": "translator",
+  "name": "translatr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ljobse/mailer"
+    "url": "https://github.com/ljobse/translatr"
   },
-  "version": "1.0.0-rc.6",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Leslie Jobse",
