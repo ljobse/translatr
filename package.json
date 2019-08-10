@@ -17,7 +17,8 @@
     "dev": "tsc -w",
     "nodemon": "nodemon lib/index.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -c tslint.json -p tsconfig.json"
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "prepack": "npm build"
   },
   "devDependencies": {
     "@types/node": "^12.7.1",
