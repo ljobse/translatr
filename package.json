@@ -18,15 +18,16 @@
     "nodemon": "nodemon lib/index.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -c tslint.json -p tsconfig.json",
-    "prepack": "npm build"
+    "prepack": "npm build",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^12.7.1",
-    "nodemon": "^1.18.11",
-    "prettier": "^1.17.0",
-    "tslint": "^5.16.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.3"
   },
   "dependencies": {}
 }
