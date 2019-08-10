@@ -1,0 +1,31 @@
+{
+  "name": "translator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljobse/mailer"
+  },
+  "version": "1.0.0-rc.6",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Leslie Jobse",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "nodemon": "nodemon lib/index.js",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "nodemon": "^1.18.11",
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {}
+}
